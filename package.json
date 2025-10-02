@@ -1,0 +1,84 @@
+{
+  "icon": "icon.png",
+  "name": "live-lens",
+  "displayName": "Live Lens",
+  "description": "LiveLens gives you a realtime preview of your web projects without ever leaving vscode",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.104.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "publisher": "birukbelihu",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/birukbelihu/live-lens"
+  },
+  "main": "./out/extension.js",
+  "contributes": {
+    "configuration": {
+      "title": "Live Lens",
+      "properties": {
+        "liveLens.mode": {
+          "type": "string",
+          "default": "inline",
+          "enum": [
+            "browser",
+            "inline"
+          ],
+          "description": "Choose how to preview: external browser(Chrome, Edge, Firefox) or inline panel in vscode"
+        },
+        "liveLens.port": {
+          "type": "number",
+          "default": 5500,
+          "description": "Port number for the live preview server"
+        }
+      }
+    },
+    "commands": [
+      {
+        "command": "liveLens.start",
+        "title": "Start Live Lens"
+      },
+      {
+        "command": "liveLens.stop",
+        "title": "Stop Live Lens"
+      },
+      {
+        "command": "liveLens.toggle",
+        "title": "Toggle Live Lens"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run compile",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "pretest": "npm run compile && npm run lint",
+    "lint": "eslint src",
+    "test": "vscode-test"
+  },
+  "devDependencies": {
+    "@types/chokidar": "^1.7.5",
+    "@types/express": "^5.0.3",
+    "@types/mocha": "^10.0.10",
+    "@types/node": "^22.18.8",
+    "@types/vscode": "^1.104.0",
+    "@types/ws": "^8.18.1",
+    "@typescript-eslint/eslint-plugin": "^8.42.0",
+    "@typescript-eslint/parser": "^8.42.0",
+    "@vscode/test-cli": "^0.0.11",
+    "@vscode/test-electron": "^2.5.2",
+    "eslint": "^9.34.0",
+    "typescript": "^5.9.2"
+  },
+  "dependencies": {
+    "chokidar": "^4.0.3",
+    "express": "^5.1.0",
+    "ws": "^8.18.3"
+  }
+}
