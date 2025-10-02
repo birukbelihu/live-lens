@@ -1,9 +1,3 @@
-# Change Log
+# [1.0.0] - 2025-09-01
 
-All notable changes to the "live-lens" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+## live-lens Initial Release
