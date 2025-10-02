@@ -54,10 +54,10 @@ LiveLens adds settings to customize preview behavior:
 }
 ```
 
-| Setting | Type   | Default   | Description                                                                                      |
-|---------|--------|-----------|--------------------------------------------------------------------------------------------------|
-| `mode`  | string | "browser" | Choose preview mode: `"browser"` opens in external browser, `"inline"` opens in VS Code webview. |
-| `port`  | number | 5500      | Port number for the local preview server.                                                        |
+| Setting | Type   | Default  | Description                                                                                      |
+|---------|--------|----------|--------------------------------------------------------------------------------------------------|
+| `mode`  | string | "inline" | Choose preview mode: `"browser"` opens in external browser, `"inline"` opens in VS Code webview. |
+| `port`  | number | 5500     | Port number for the local preview server.                                                        |
 
 ---
 
