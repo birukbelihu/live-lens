@@ -37,11 +37,11 @@
 
 ## Screenshots
 
-![Live Lens Screenshot 1](https://github.com/birukbelihu/live-lens/raw/master/images/live-lens-s1.png)
+![Live Lens Screenshot 1](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s1.png)
 
-![Live Lens Screenshot 2](https://github.com/birukbelihu/live-lens/raw/master/images/live-lens-s2.png)
+![Live Lens Screenshot 2](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s2.png)
 
-![Live Lens Screenshot 3](https://github.com/birukbelihu/live-lens/raw/master/images/live-lens-s3.png)
+![Live Lens Screenshot 3](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s3.png)
 
 ## Settings
 
