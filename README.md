@@ -77,7 +77,7 @@ LiveLens adds settings to customize preview behavior:
 
 ## Contribute
 
-Want to improve **AutoSaviour**? Contributions are welcome!  
+Want to improve **Live Lens**? Contributions are welcome!  
 
 - [Open an issue](https://github.com/birukbelihu/live-lens/issues)  
 - [Submit a pull request](https://github.com/birukbelihu/live-lens/pulls)  
