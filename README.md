@@ -47,7 +47,7 @@
 
 ## Settings
 
-LiveLens adds settings to customize preview behavior:
+Live Lens adds settings to customize preview behavior:
 
 ```jsonc
 {
