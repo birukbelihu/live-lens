@@ -56,10 +56,13 @@ export class Server {
         if (server) {
             server.close();
         }
+
         if (wss){
          wss.close();
         }
+
         LivelensUtils.showMessage("LiveLens Server stopped");
+
         if (statusBarItem) {
             statusBarItem.text = '$(rocket) Start Live Preview';
         }
@@ -78,9 +81,20 @@ export class Server {
             <!DOCTYPE html>
             <html lang="en">
             <head>
+               <title>Live Lens Preview</title>
                 <style>
-                    body, html { margin:0; padding:0; height:100%; width:100%; }
-                    iframe { width:100%; height:100%; border:none; }
+                    body, html { 
+                    margin:0; 
+                    padding:0; 
+                    height:100%; 
+                    width:100%; 
+                    }
+                    
+                    iframe { 
+                    width:100%; 
+                    height:100%; 
+                    border:none; 
+                    }
                 </style>
             </head>
             <body>
