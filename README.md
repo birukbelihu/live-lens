@@ -43,7 +43,7 @@
 | ![Live Lens Screenshot 3](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s3.png) | ![Live Lens Screenshot 4](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s4.png) |                                                                                         |
 |                                               **Inline**                                                |                                               **Browser**                                               |
 | ![Live Lens Screenshot 5](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s5.png) | ![Live Lens Screenshot 6](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s6.png) |                                                                                         |
-|                                           **Command Pallet**                                            |                                          **Live Lens Setting**                                          |
+|                                           **Command Pallet**                                            |                                              **Settings**                                               |
 
 ## Settings
 
@@ -51,15 +51,15 @@ LiveLens adds settings to customize preview behavior:
 
 ```jsonc
 {
-  "livelens.mode": "browser", // "browser" | "inline"
+  "livelens.mode": "inline", // "inline" | "browser"
   "livelens.port": 5500       // server port number
 }
 ```
 
-| Setting | Type   | Default  | Description                                                                                      |
-|---------|--------|----------|--------------------------------------------------------------------------------------------------|
-| `mode`  | string | "inline" | Choose preview mode: `"browser"` opens in external browser, `"inline"` opens in VS Code webview. |
-| `port`  | number | 5500     | Port number for the local preview server.                                                        |
+| Setting | Type   | Default  | Description                                                                                                        |
+|---------|--------|----------|--------------------------------------------------------------------------------------------------------------------|
+| `mode`  | string | "inline" | Choose preview mode: `inline` opens in VS Code webview, `browser` opens in external browser(Chrome, Edge, Firefox) |
+| `port`  | number | 5500     | Port number for the local preview server.                                                                          |
 
 ---
 
