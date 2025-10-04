@@ -40,9 +40,9 @@
 | ![Live Lens Screenshot 1](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s1.png) | ![Live Lens Screenshot 1](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s2.png) |
 |:-------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------:|
 |                                               **Inline**                                                |                                               **Browser**                                               |
-| ![Live Lens Screenshot 1](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s3.png) | ![Live Lens Screenshot 1](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s4.png) |                                                                                         |
+| ![Live Lens Screenshot 3](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s3.png) | ![Live Lens Screenshot 4](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s4.png) |                                                                                         |
 |                                               **Inline**                                                |                                               **Browser**                                               |
-| ![Live Lens Screenshot 1](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s5.png) | ![Live Lens Screenshot 1](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s6.png) |                                                                                         |
+| ![Live Lens Screenshot 5](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s5.png) | ![Live Lens Screenshot 6](https://github.com/birukbelihu/live-lens/blob/master/images/live-lens-s6.png) |                                                                                         |
 |                                               **Inline**                                                |                                               **Browser**                                               |
 
 ## Settings
