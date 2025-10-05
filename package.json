@@ -3,7 +3,7 @@
   "name": "live-lens",
   "displayName": "Live Lens",
   "description": "LiveLens gives you a realtime preview of your web projects without ever leaving vscode",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "engines": {
     "vscode": "^1.104.0"
   },
