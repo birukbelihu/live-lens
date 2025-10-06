@@ -30,7 +30,7 @@
             "browser",
             "inline"
           ],
-          "description": "Choose how to preview: external browser(Chrome, Edge, Firefox) or inline panel in vscode"
+          "description": "Choose preview mode: `inline` opens in VS Code webview, `browser` opens in external browser(Chrome, Edge, Firefox)"
         },
         "liveLens.port": {
           "type": "number",
